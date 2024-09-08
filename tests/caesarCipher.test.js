@@ -1,3 +1,5 @@
+import caesarCipher from "../code/caesarCipher";
+
 test("ciphers based on key", () => {
   expect(caesarCipher("hello", 3)).toBe("khoor");
   expect(caesarCipher("hello", 4)).toBe("lipps");
